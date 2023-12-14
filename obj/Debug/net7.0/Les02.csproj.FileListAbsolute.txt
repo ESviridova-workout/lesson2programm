@@ -1,0 +1,14 @@
+C:\Users\Елена\Desktop\ZnacomctvoC_Program\nombe1\Les02\bin\Debug\net7.0\Les02.exe
+C:\Users\Елена\Desktop\ZnacomctvoC_Program\nombe1\Les02\bin\Debug\net7.0\Les02.deps.json
+C:\Users\Елена\Desktop\ZnacomctvoC_Program\nombe1\Les02\bin\Debug\net7.0\Les02.runtimeconfig.json
+C:\Users\Елена\Desktop\ZnacomctvoC_Program\nombe1\Les02\bin\Debug\net7.0\Les02.dll
+C:\Users\Елена\Desktop\ZnacomctvoC_Program\nombe1\Les02\bin\Debug\net7.0\Les02.pdb
+C:\Users\Елена\Desktop\ZnacomctvoC_Program\nombe1\Les02\obj\Debug\net7.0\Les02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Елена\Desktop\ZnacomctvoC_Program\nombe1\Les02\obj\Debug\net7.0\Les02.AssemblyInfoInputs.cache
+C:\Users\Елена\Desktop\ZnacomctvoC_Program\nombe1\Les02\obj\Debug\net7.0\Les02.AssemblyInfo.cs
+C:\Users\Елена\Desktop\ZnacomctvoC_Program\nombe1\Les02\obj\Debug\net7.0\Les02.csproj.CoreCompileInputs.cache
+C:\Users\Елена\Desktop\ZnacomctvoC_Program\nombe1\Les02\obj\Debug\net7.0\Les02.dll
+C:\Users\Елена\Desktop\ZnacomctvoC_Program\nombe1\Les02\obj\Debug\net7.0\refint\Les02.dll
+C:\Users\Елена\Desktop\ZnacomctvoC_Program\nombe1\Les02\obj\Debug\net7.0\Les02.pdb
+C:\Users\Елена\Desktop\ZnacomctvoC_Program\nombe1\Les02\obj\Debug\net7.0\Les02.genruntimeconfig.cache
+C:\Users\Елена\Desktop\ZnacomctvoC_Program\nombe1\Les02\obj\Debug\net7.0\ref\Les02.dll
