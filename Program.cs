@@ -125,57 +125,57 @@
 // Опишем метод, который будет выводить все элементы по-порядку.
 //  код поиска нужного интекса превратим в метод.
 
-void FillArr(int[] collection)     //  collectin - это название аргумента/  Это первый метод - который заполнил массив
-{
-    int length = collection.Length;         // определяем длину массива
-    int index = 0;
-    while(index<length)
-    {
-        collection[index] = new Random().Next(1, 10);       // положим в аргумент с индексом новое число из промежутка от 1 до 10
-        index++;
-    }
-}
+// void FillArr(int[] collection)     //  collectin - это название аргумента/  Это первый метод - который заполнил массив
+// {
+//     int length = collection.Length;         // определяем длину массива
+//     int index = 0;
+//     while(index<length)
+//     {
+//         collection[index] = new Random().Next(1, 10);       // положим в аргумент с индексом новое число из промежутка от 1 до 10
+//         index++;
+//     }
+// }
 
-void PrintArr(int[] col)                      // Это метод, который будет печатать массив
-{
-    int count = col.Length;
-    int position = 0;
-    while(position<count)
-    {
-        Console.WriteLine(col[position]);
-        position++;
-    }
-}
+// void PrintArr(int[] col)                      // Это метод, который будет печатать массив
+// {
+//     int count = col.Length;
+//     int position = 0;
+//     while(position<count)
+//     {
+//         Console.WriteLine(col[position]);
+//         position++;
+//     }
+// }
 
-int IndexOf(int[] collection, int find)
-// метод отличный от void - он будет возвращать позицию / Приходит массив с аргументом collection и элементом find
-{
-    int count = collection.Length;
-    int index=0;
-    int position=-1;
-// При отсутствии искомого элемента выводил 0, здесь тоже стоял ноль. Но если поменять на  -1, то при отсутсвии элемента будет выводить  -1.
+// int IndexOf(int[] collection, int find)
+// // метод отличный от void - он будет возвращать позицию / Приходит массив с аргументом collection и элементом find
+// {
+//     int count = collection.Length;
+//     int index=0;
+//     int position=-1;
+// // При отсутствии искомого элемента выводил 0, здесь тоже стоял ноль. Но если поменять на  -1, то при отсутсвии элемента будет выводить  -1.
 
-    while(index<count)
-    {
-        if(collection[index]==find)
-        {
-            position = index;
-            break;                // эта команда остановит поиск после первого найденного
-        }
-        index++;
-    }
-    return position;
-}
+//     while(index<count)
+//     {
+//         if(collection[index]==find)
+//         {
+//             position = index;
+//             break;                // эта команда остановит поиск после первого найденного
+//         }
+//         index++;
+//     }
+//     return position;
+// }
 
-int[] arr = new int[10];   // Дословно "создай новый массив, в котором будет 10 элементов. По умолчанию он наполнен  0 "
+// int[] arr = new int[10];   // Дословно "создай новый массив, в котором будет 10 элементов. По умолчанию он наполнен  0 "
 
-FillArr(arr);
-arr[4] = 4;     // так искусственно ввели в массив четверки
-arr[6] = 4;
-PrintArr(arr);
-Console.WriteLine();
-int pos = IndexOf(arr, 444);
-Console.WriteLine(pos);
-// выводит последнюю занимаемую позицию из нескольких
-//  но эта программа выдает 0 если указанного числа вообще нет, а это получается конфликт, т.к. 0 это индекс первого элемента массива
+// FillArr(arr);
+// arr[4] = 4;     // так искусственно ввели в массив четверки
+// arr[6] = 4;
+// PrintArr(arr);
+// Console.WriteLine();
+// int pos = IndexOf(arr, 444);
+// Console.WriteLine(pos);
+// // выводит последнюю занимаемую позицию из нескольких
+// //  но эта программа выдает 0 если указанного числа вообще нет, а это получается конфликт, т.к. 0 это индекс первого элемента массива
 
